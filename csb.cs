@@ -5,22 +5,22 @@ namespace consoleBufferScreenPrinter
 {
 	public class buffer
 	{
-    		public static string frame0
-    		{}
-    		public static string frame1
-    		{}
-    		public static string frame2
-    		{}
-    		public static string frame3
-		{}
+    		public static string frame()
+    		{
+			//
+		}
   	}
 	public class consoler
 	{
 		public static void Main()
 		{
-			//
+			bool continue = true;
+			while (continue)
+			{
+				print(buffer.frame());
+			}
 		}
-    		public static void printBuffer(string)
+    		public static void print(string)
     		{
       			Console.Write(string);
 		}
