@@ -5,11 +5,11 @@ namespace consoleBufferScreenPrinter
 {
 	public class buffer
 	{
-    		public static string frame()
-    		{
+		public static string frame()
+		{
 			//
 		}
-  	}
+	}
 	public class consoler
 	{
 		public static void Main()
@@ -20,10 +20,9 @@ namespace consoleBufferScreenPrinter
 				print(buffer.frame());
 			}
 		}
-    		public static void print(string)
-    		{
-      			Console.Write(string);
+		public static void print(string)
+		{
+			Console.Write(string);
 		}
 	}
 }
-
